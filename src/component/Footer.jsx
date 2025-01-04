@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -23,19 +23,19 @@ const Footer = () => {
           >
             <FaWhatsapp size={30} />
           </a>
-          <a
+          {/* <a
             href="https://twitter.com/your-profile"
             target="_blank"
             rel="noopener noreferrer"
             className="text-theme-palePeach hover:text-theme-deepBrown transition duration-300"
           >
-            <FaTwitter size={30} />
-          </a>
+            <FaXTwitter  size={30} />
+          </a> */}
         </div>
 
         {/* Copyright */}
         <p className="text-theme-softTeal text-sm">
-          &copy; {new Date().getFullYear()} Your Name. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Moenga David. All Rights Reserved.
         </p>
       </div>
     </footer>

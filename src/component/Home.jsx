@@ -15,14 +15,16 @@ const Home = () => {
 
       {/* Profile Section */}
       <div className="relative z-10 max-w-4xl flex flex-col items-center">
-        {/* Profile Image */}
-        <div className="w-32 h-32 md:w-40 md:h-40 bg-gray-200 rounded-full overflow-hidden shadow-lg border-4 border-[#AFDDE5]">
-          <img
-            src={pic6}
-            alt="Profile"
-            className="object-cover w-140 h-140"
-          />
-        </div>
+  {/* Profile Image */}
+  <div className="w-32 h-32 md:w-40 md:h-40 bg-gradient-to-r from-[#4A90E2] via-[#0FA4AF] to-[#F39C12] rounded-full overflow-hidden shadow-xl border-4 border-[#AFDDE5] transform transition duration-500 hover:scale-110">
+    <img
+      src={pic6} // Ensure you have the correct image path
+      alt="Profile"
+      className="object-cover w-150 h-150 align-middle"
+    />
+  </div>
+</div>
+
 
         {/* Heading and Subtitle */}
         <h1 className="mt-8 text-4xl sm:text-5xl lg:text-6xl font-bold text-[#AFDDE5] leading-snug">
@@ -45,10 +47,8 @@ const Home = () => {
         </p>
 
         {/* Description */}
-        <p className="mt-6 text-sm sm:text-lg lg:text-xl text-gray-300 max-w-2xl">
-          I craft beautiful, responsive web applications and love tackling
-          complex challenges with innovative solutions. Let's collaborate and
-          build something amazing together!
+        <p className="mt-6 text-sm sm:text-lg lg:text-xl text-gray-300 max-w-2xl text-center">
+         I am a Student Developer who is passionate about building scalable web applications. I have a strong focus on modern technologies and am eager to explore new opportunities.
         </p>
 
         {/* Call-to-Actions */}
@@ -59,14 +59,14 @@ const Home = () => {
           >
             View My Projects
           </a>
-          <a
+          {/* <a
             href="#contact"
             className="px-6 py-3 bg-transparent border-2 border-[#AFDDE5] text-[#AFDDE5] text-lg font-semibold rounded-full hover:bg-[#AFDDE5] hover:text-[#003135] transition duration-300"
           >
             Get in Touch
-          </a>
+          </a> */}
         </div>
-      </div>
+      
 
       {/* Scroll Down Indicator */}
       <div className="absolute bottom-4 flex flex-col items-center">
