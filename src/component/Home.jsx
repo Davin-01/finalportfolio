@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
+import pic6 from "../assets/pic6.jpg"
 
 const Home = () => {
   return (
@@ -17,9 +18,9 @@ const Home = () => {
         {/* Profile Image */}
         <div className="w-32 h-32 md:w-40 md:h-40 bg-gray-200 rounded-full overflow-hidden shadow-lg border-4 border-[#AFDDE5]">
           <img
-            src="https://via.placeholder.com/150"
+            src={pic6}
             alt="Profile"
-            className="object-cover w-full h-full"
+            className="object-cover w-140 h-140"
           />
         </div>
 
